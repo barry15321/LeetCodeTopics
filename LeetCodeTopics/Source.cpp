@@ -2,6 +2,7 @@
 #include<stack>
 #include<queue>
 #include<sstream>
+#include "FkingPrintStar.h"
 
 using namespace std;
 
@@ -20,22 +21,8 @@ int str2int(string str) {
 
 int main()
 {
-	//Solution s;
-	//vector<vector<char>> vc;
-	//vector<char> c_ary;
-	//c_ary = { '5','3','.','.','7','.','.','.','.' }; vc.push_back(c_ary);
-	//c_ary = { '6','.','.','1','9','5','.','.','.' }; vc.push_back(c_ary);
-	//c_ary = { '.','9','8','.','.','.','.','6','.' }; vc.push_back(c_ary);
-	//c_ary = { '8','.','.','.','6','.','.','.','3' }; vc.push_back(c_ary);
-	//c_ary = { '4','.','.','8','.','3','.','.','1' }; vc.push_back(c_ary);
-	//c_ary = { '7','.','.','.','2','.','.','.','6' }; vc.push_back(c_ary);
-	//c_ary = { '.','6','.','.','.','.','2','8','.' }; vc.push_back(c_ary);
-	//c_ary = { '.','.','.','4','1','9','.','.','5' }; vc.push_back(c_ary);
-	//c_ary = { '.','.','.','.','8','.','.','7','9' }; vc.push_back(c_ary);
-
-	//cout << "T/F : " << s.isValidSudoku(vc) << endl;
-
-
+	fkStar star;
+	star.PrintStar(7);
 	system("Pause");
 	return 0;
 }
