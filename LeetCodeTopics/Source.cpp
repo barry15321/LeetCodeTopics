@@ -1,7 +1,10 @@
-#include<iostream>
-#include<stack>
-#include<queue>
-#include<sstream>
+#include <iostream>
+#include <stack>
+#include <queue>
+#include <sstream>
+#include <fstream>
+#include <algorithm>
+
 #include "FkingPrintStar.h"
 
 using namespace std;
@@ -21,8 +24,14 @@ int str2int(string str) {
 
 int main()
 {
-	fkStar star;
-	star.PrintStar(7);
+	char fileName[] = "data.txt";
+	ifstream infile(fileName);
+
+	if (infile)
+		cout << infile.rdbuf();
+	else
+		cerr << "Error while opening the file " << fileName << endl;
+
 	system("Pause");
 	return 0;
 }

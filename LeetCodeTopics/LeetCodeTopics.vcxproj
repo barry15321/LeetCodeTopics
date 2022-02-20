@@ -143,7 +143,18 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bitset.h" />
+    <ClInclude Include="Carry17.h" />
+    <ClInclude Include="ClassInheritance_Operator.h" />
+    <ClInclude Include="ConvertIntStr.h" />
+    <ClInclude Include="Define_init.h" />
+    <ClInclude Include="FileStream.h" />
     <ClInclude Include="FkingPrintStar.h" />
+    <ClInclude Include="FriendClass.h" />
+    <ClInclude Include="LinkList_example.h" />
+    <ClInclude Include="Pointer_DynamicArray.h" />
+    <ClInclude Include="TemplateClass.h" />
+    <ClInclude Include="UsingSTL.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

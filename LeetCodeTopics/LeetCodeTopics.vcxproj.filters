@@ -15,13 +15,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="FkingPrintStar.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="UsingSTL.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Carry17.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateClass.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="bitset.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendClass.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Define_init.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertIntStr.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointer_DynamicArray.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassInheritance_Operator.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList_example.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
