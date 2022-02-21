@@ -143,8 +143,10 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinarySearch.h" />
     <ClInclude Include="bitset.h" />
     <ClInclude Include="Carry17.h" />
+    <ClInclude Include="ClassImplement.h" />
     <ClInclude Include="ClassInheritance_Operator.h" />
     <ClInclude Include="ConvertIntStr.h" />
     <ClInclude Include="Define_init.h" />
@@ -153,6 +155,7 @@
     <ClInclude Include="FriendClass.h" />
     <ClInclude Include="LinkList_example.h" />
     <ClInclude Include="Pointer_DynamicArray.h" />
+    <ClInclude Include="ReferencesCall.h" />
     <ClInclude Include="TemplateClass.h" />
     <ClInclude Include="UsingSTL.h" />
   </ItemGroup>

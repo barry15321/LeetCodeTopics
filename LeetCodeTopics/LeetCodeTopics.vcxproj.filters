@@ -51,6 +51,15 @@
     <ClInclude Include="LinkList_example.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="BinarySearch.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassImplement.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferencesCall.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
