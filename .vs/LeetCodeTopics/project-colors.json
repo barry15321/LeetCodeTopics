@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9060d8b0-1955-410d-9b29-785bc45db3d3": {
+      "ProjectGuid": "9060d8b0-1955-410d-9b29-785bc45db3d3",
+      "DisplayName": "LeetCodeTopics",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

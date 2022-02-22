@@ -60,6 +60,9 @@
     <ClInclude Include="ReferencesCall.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
