@@ -53,3 +53,14 @@ void load_ofstream()
 	else
 		cout << "Fail open file!" << endl;
 }
+
+void file_rdbuf()
+{
+	char fileName[] = "data.txt";
+	ifstream infile(fileName);
+
+	if (infile)
+		cout << infile.rdbuf();
+	else
+		cerr << "Error while opening the file " << fileName << endl;
+}

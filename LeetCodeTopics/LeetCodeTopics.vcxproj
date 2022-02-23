@@ -153,6 +153,7 @@
     <ClInclude Include="FileStream.h" />
     <ClInclude Include="FkingPrintStar.h" />
     <ClInclude Include="FriendClass.h" />
+    <ClInclude Include="InterfaceImplement.h" />
     <ClInclude Include="LinkList_example.h" />
     <ClInclude Include="MergeSort.h" />
     <ClInclude Include="Pointer_DynamicArray.h" />

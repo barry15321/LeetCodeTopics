@@ -4,18 +4,12 @@
 #include <sstream>
 #include <fstream>
 #include <algorithm>
+#include "InterfaceImplement.h"
 using namespace std;
 
 int main()
 {
-	char fileName[] = "data.txt";
-	ifstream infile(fileName);
-
-	if (infile)
-		cout << infile.rdbuf();
-	else
-		cerr << "Error while opening the file " << fileName << endl;
-
+	IF_Implement();
 	system("Pause");
 	return 0;
 }
